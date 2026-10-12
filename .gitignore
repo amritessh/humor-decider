@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+train_raw*.jsonl
+gold*.jsonl
+fails*.jsonl
+zeroshot*.json

@@ -1,0 +1,75 @@
+{
+ "noul": {
+  "self_deprecating": {
+   "instructions": "Does the speaker make fun of themselves?",
+   "criteria": {
+    "true": "the speaker mocks their own looks, height, age, career, or competence",
+    "false": "the speaker is not the target of the humor"
+   }
+  },
+  "absurd_escalation": {
+   "instructions": "Does the joke start from a normal premise and push it to an absurd extreme?",
+   "criteria": {
+    "true": "an ordinary setup escalates into something implausible or ridiculous",
+    "false": "the joke stays within plausible territory"
+   }
+  },
+  "mock_outrage": {
+   "instructions": "Does the speaker overreact with exaggerated outrage over something small?",
+   "criteria": {
+    "true": "a trivial thing gets a wildly oversized, indignant reaction",
+    "false": "there is no exaggerated overreaction"
+   }
+  },
+  "undercuts_itself": {
+   "instructions": "Does the speaker comment on or deflate their own joke?",
+   "criteria": {
+    "true": "the narrator reacts to the joke itself, admits it is weak, or breaks the bit",
+    "false": "the joke is delivered straight with no comment on itself"
+   }
+  },
+  "silly_tangent": {
+   "instructions": "Does the joke veer into an oddly specific non sequitur?",
+   "criteria": {
+    "true": "an unexpected tangent with strange, specific detail",
+    "false": "the joke stays on topic with no tangent"
+   }
+  },
+  "overcommits": {
+   "instructions": "Does the joke keep going past its natural stopping point?",
+   "criteria": {
+    "true": "the bit continues beyond where a typical joke would end, getting sillier",
+    "false": "the joke ends at its natural punchline"
+   }
+  },
+  "silly_button": {
+   "instructions": "Does the joke end with a separate goofy closing line after its main punchline?",
+   "criteria": {
+    "true": "a separate short closing line comes after the main punchline",
+    "false": "the joke ends on the main punchline with no separate closing line"
+   }
+  }
+ },
+ "score": {
+  "conan_fit": {
+   "instructions": "How well does this joke fit a Conan O'Brien-style late-night monologue?",
+   "criteria": [
+    "not at all",
+    "slightly",
+    "fairly",
+    "very much"
+   ]
+  }
+ },
+ "choice": {
+  "host_style": {
+   "instructions": "Which comedic style does this joke most resemble?",
+   "criteria": {
+    "conan_absurdist": "self-deprecating, absurd escalation, silly tangents",
+    "deadpan_political": "dry topical commentary with a political edge",
+    "warm_observational": "gentle everyday observation with no edge",
+    "pun_dad": "wordplay or a pun with a groan-worthy payoff"
+   }
+  }
+ }
+}
